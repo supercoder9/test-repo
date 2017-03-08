@@ -1,0 +1,12 @@
+public class HelloSpring{
+
+private string message;
+
+private void getMessage(){
+return "hello to spring mvc";
+}
+
+private String setMessage(String message){
+  this.message = message;
+}
+}

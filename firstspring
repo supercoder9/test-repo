@@ -1,0 +1,11 @@
+public class MainApp{
+
+  public static void Main(String[] args){
+    ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+    
+    HelloSpring hello = context.getBeans("helloSpring");
+    hello.getMessage();
+    
+  }
+
+}
