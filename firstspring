@@ -3,9 +3,9 @@ public class MainApp{
   public static void Main(String[] args){
     ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
     
-    HelloSPring hello = context.getBeans("helloSpring");
+    HelloSpring hello = context.getBeans("helloSpring");
     hello.getMessage();
-  
+    
   }
 
 }
